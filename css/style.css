@@ -1,0 +1,87 @@
+.title {
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.title span {
+    color: goldenrod;
+    font-size: 40px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main img {
+    max-height: 400px;
+}
+
+.main-info {
+    max-width: 500px;
+    border: goldenrod 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.main-info ul {
+    padding-left: 17px;
+}
+
+.main-info a {
+    font-size: 20px;
+    color: goldenrod;
+}
+
+.form {
+    margin: 50px auto;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    text-align: center;
+    font-size: 35px;
+    color: goldenrod;
+}
+
+.form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: goldenrod;
+}
+
+.form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: goldenrod;
+    border-color: goldenrod;
+    color: azure;
+    font-size: 20px;
+}
+
+.form button:hover {
+    background-color: white;
+    color:black;
+    border: goldenrod 3px solid;
+}
+
+.main img:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.main-info a:hover {
+    color: bisque;
+}
+
+label {
+    font-size: 18px;
+    color: goldenrod;
+    border: 5px
+}
+
